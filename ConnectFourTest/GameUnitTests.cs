@@ -36,6 +36,7 @@ namespace KSU.CIS300.ConnectFour.Test
             Assert.That(_g.Column.Next == null);
             foreach (char c in cols)
             {
+                Console.WriteLine(c);
                 Assert.That(_g.Column.Id == "" + c);
                 _g.Column = _g.Column.Previous;
                 if (c != Game.ColumnLabels[0])
