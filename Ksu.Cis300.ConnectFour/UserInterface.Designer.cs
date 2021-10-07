@@ -98,7 +98,7 @@ namespace KSU.CIS300.ConnectFour
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UserInterface";
-            this.Text = "Form1";
+            this.Text = "Connect Four";
             this.uxTopContainer.ResumeLayout(false);
             this.uxTopContainer.PerformLayout();
             this.ResumeLayout(false);
